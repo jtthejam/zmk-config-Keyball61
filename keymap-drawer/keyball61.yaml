@@ -311,7 +311,7 @@ layers:
   - {type: held alternate}
   - {type: held alternate}
   SCROLL:
-  - '&_unlock'
+  - '&studio_unlock'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
