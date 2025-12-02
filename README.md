@@ -1,4 +1,4 @@
-![Keyball61 - Jeremy](https://img.shields.io/badge/KB61-JT-v1.1-blue)
+![Keyball61 - Jeremy](https://img.shields.io/badge/KB61JT-v1.1-blue)
 
 This keeb created by a group of people who loves keyball.
 
