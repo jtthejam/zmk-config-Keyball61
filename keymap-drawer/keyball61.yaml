@@ -50,7 +50,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-shift$$', h: MOUSE}
   - FUN
   - MOUSE
   - NUM
@@ -298,9 +298,9 @@ layers:
   - '&mkp MB5'
   - HOME
   - END
-  - {type: held alternate}
-  - {t: FUN, h: toggle, type: held alternate}
   - {type: held}
+  - {t: FUN, h: toggle, type: held alternate}
+  - {type: held alternate}
   - {t: NUM, h: toggle}
   - {t: SYM, h: toggle, type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
