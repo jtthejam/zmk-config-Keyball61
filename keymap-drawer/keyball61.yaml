@@ -50,7 +50,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: MOUSE}
+  - $$mdi:apple-keyboard-shift$$
   - FUN
   - MOUSE
   - NUM
@@ -108,7 +108,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: QWRT, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - KP NUMLOCK
   - KP ENTER
   - KP 1
   - KP 2
@@ -120,7 +120,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - KP NUMLOCK
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 0
   - KP DOT
@@ -138,11 +138,11 @@ layers:
   - )
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PRINTSCREEN
+  - SCROLLLOCK
+  - PAUSE BREAK
+  - $$mdi:volume-high$$
+  - MUTE
   - {t: '`', s: '~'}
   - {t: '-', s: _}
   - {t: '=', s: +}
@@ -150,10 +150,10 @@ layers:
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - INS
+  - HOME
+  - PG UP
+  - $$mdi:volume-low$$
   - $$mdi:arrow-up-bold$$
   - '~'
   - _
@@ -162,9 +162,9 @@ layers:
   - '}'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
+  - END
+  - PG DN
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -298,9 +298,9 @@ layers:
   - '&mkp MB5'
   - HOME
   - END
+  - {type: held alternate}
+  - {type: held alternate}
   - {type: held}
-  - {type: held alternate}
-  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
