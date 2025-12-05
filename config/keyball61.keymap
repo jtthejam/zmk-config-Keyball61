@@ -34,18 +34,18 @@
 &kp ESC         &kp N1  &kp N2  &kp N3  &kp N4     &kp N5                               &kp N6         &kp N7  &kp N8     &kp N9   &kp N0    &kp BSPC
 &kp TAB         &kp Q   &kp W   &kp E   &kp R      &kp T                                &kp Y          &kp U   &kp I      &kp O    &kp P     &kp BACKSLASH
 &kp CAPS        &kp A   &kp S   &kp D   &kp F      &kp G                                &kp H          &kp J   &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LEFT_SHIFT  &kp Z   &kp X   &kp C   &kp V      &kp B      &kp LEFT_META  &to 0      &kp N          &kp M   &kp COMMA  &kp DOT  &kp FSLH  &lt 4 RSHIFT
+&kp LEFT_SHIFT  &kp Z   &kp X   &kp C   &kp V      &kp B      &kp LEFT_META  &to 0      &kp N          &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
 &mo 3           &mo 4   &mo 1   &mo 2   &kp LCTRL  &kp SPACE  &kp LALT       &kp ENTER  &kp BACKSPACE                              &mo 2     &mo 3
             >;
         };
 
         number_layer {
             bindings = <
-&bt BT_SEL 0  &kp NUMBER_6  &kp N7    &kp N8  &kp N9     &kp N0                          &trans  &trans  &kp KP_ASTERISK  &kp KP_DIVIDE  &kp KP_LEFT_PARENTHESIS  &kp KP_RIGHT_PARENTHESIS
-&bt BT_SEL 1  &trans        &trans    &trans  &trans     &trans                          &trans  &trans  &kp KP_MINUS     &kp KP_N7      &kp KP_N8                &kp KP_N9
-&bt BT_SEL 2  &kp LEFT      &kp DOWN  &kp UP  &kp RIGHT  &trans                          &trans  &trans  &kp KP_PLUS      &kp KP_N4      &kp KP_N5                &kp KP_N6
-&bt BT_SEL 3  &trans        &trans    &trans  &trans     &trans  &trans  &to 0           &trans  &trans  &kp KP_ENTER     &kp KP_N1      &kp KP_N2                &kp KP_N3
-&bt BT_SEL 4  &trans        &trans    &trans  &trans     &trans  &trans  &kp KP_NUMLOCK  &trans                                          &kp KP_N0                &kp KP_DOT
+&bt BT_SEL 0  &kp NUMBER_6  &kp N7    &kp N8  &kp N9     &kp N0                  &trans  &trans          &kp KP_ASTERISK  &kp KP_DIVIDE  &kp KP_LEFT_PARENTHESIS  &kp KP_RIGHT_PARENTHESIS
+&bt BT_SEL 1  &trans        &trans    &trans  &trans     &trans                  &trans  &trans          &kp KP_MINUS     &kp KP_N7      &kp KP_N8                &kp KP_N9
+&bt BT_SEL 2  &kp LEFT      &kp DOWN  &kp UP  &kp RIGHT  &trans                  &trans  &trans          &kp KP_PLUS      &kp KP_N4      &kp KP_N5                &kp KP_N6
+&bt BT_SEL 3  &trans        &trans    &trans  &trans     &trans  &trans  &to 0   &trans  &kp KP_NUMLOCK  &kp KP_ENTER     &kp KP_N1      &kp KP_N2                &kp KP_N3
+&bt BT_SEL 4  &trans        &trans    &trans  &trans     &trans  &trans  &trans  &trans                                                  &kp KP_N0                &kp KP_DOT
             >;
 
             label = "NUM";
@@ -54,11 +54,11 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                      &kp CARET  &kp AMPERSAND   &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &trans           &trans       &trans    &trans      &trans                           &kp GRAVE  &kp MINUS       &kp EQUAL     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
-&trans  &trans           &trans       &trans    &trans      &kp UP_ARROW                     &kp TILDE  &kp UNDERSCORE  &kp PLUS      &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
-&trans  &trans           &trans       &trans    &kp LEFT    &kp DOWN      &kp RIGHT  &to 0   &trans     &trans          &trans        &trans                &trans                 &mo 4
-&trans  &trans           &trans       &trans    &trans      &trans        &trans     &trans  &trans                                                         &trans                 &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN     &kp HASH         &kp DOLLAR         &kp PERCENT                      &kp CARET  &kp AMPERSAND   &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAUSE_BREAK  &kp C_VOLUME_UP    &kp K_MUTE                       &kp GRAVE  &kp MINUS       &kp EQUAL     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
+&trans  &kp INS          &kp HOME        &kp PG_UP        &kp C_VOLUME_DOWN  &kp UP_ARROW                     &kp TILDE  &kp UNDERSCORE  &kp PLUS      &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
+&trans  &kp DELETE       &kp END         &kp PG_DN        &kp LEFT           &kp DOWN      &kp RIGHT  &to 0   &trans     &trans          &trans        &trans                &trans                 &mo 4
+&trans  &trans           &trans          &trans           &trans             &trans        &trans     &trans  &trans                                                         &trans                 &trans
             >;
         };
 
