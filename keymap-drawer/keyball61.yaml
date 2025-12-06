@@ -311,7 +311,7 @@ layers:
   - {type: held alternate}
   - {type: held alternate}
   SCROLL:
-  - '&studio_unlock'
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
